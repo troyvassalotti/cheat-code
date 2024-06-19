@@ -1,0 +1,33 @@
+{
+  "name": "@troyv/cheatcode-component",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Web component to add a cheat code to your website.",
+  "main": "dist/cheat-code.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": "./dist/cheat-code.js"
+  },
+  "scripts": {
+    "start": "npx vite",
+    "vite::build": "npx vite build",
+    "vite::docs": "npx vite build --mode docs",
+    "build": "npm run vite::docs && npm run vite::build"
+  },
+  "keywords": [
+    "web component"
+  ],
+  "author": "Troy Vassalotti (https://www.troyv.dev)",
+  "repository": "github:troyvassalotti/cheat-code",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.5.0",
+    "vite": "^5.3.1"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.3",
+    "lit": "^3.1.4"
+  }
+}

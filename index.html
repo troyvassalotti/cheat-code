@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>cheat-code</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <script type="module" src="./src/cheat-code.js"></script>
+  </head>
+  <body>
+    <h1><code>cheat-code</code></h1>
+    <h2>Default: Konami Code</h2>
+    <p>Up, Up, Down, Down, Left, Right, Left, Right, B, A, Enter</p>
+    <cheat-code></cheat-code>
+    <h2>Starpower (use a gamepad)</h2>
+    <p>7 1 7 0 7 2 7 3 6</p>
+    <cheat-code pattern="starpower"></cheat-code>
+    <p>
+      That's green, red, green, yellow, green, blue, green, orange, tilt if
+      you're using a guitar hero controller.
+    </p>
+    <h2>Custom Pattern</h2>
+    <p>Up, Down, Up, Down</p>
+    <cheat-code pattern="ArrowUp ArrowDown ArrowUp ArrowDown"></cheat-code>
+    <h2>Custom Duration and Time Limit</h2>
+    <p>Left, Right</p>
+    <p>20 second duration, 500ms time between keys.</p>
+    <cheat-code
+      pattern="ArrowLeft ArrowRight"
+      duration="20"
+      timelimit="500"
+    ></cheat-code>
+  </body>
+</html>
