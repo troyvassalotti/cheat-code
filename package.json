@@ -1,6 +1,6 @@
 {
   "name": "@troyv/cheatcode-component",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "description": "Web component to add a cheat code to your website.",
   "main": "dist/cheat-code.js",
